@@ -156,6 +156,12 @@ body {
 :global(.loading-icon) {
   text-align: center;
 }
+video {
+  outline: none;
+}
+audio {
+  outline: none;
+}
 :global(.hide) {
   display: none;
 }

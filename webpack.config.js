@@ -48,6 +48,7 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
       inject: 'body',
+      favicon: './src/favicon.ico',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
